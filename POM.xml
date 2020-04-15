@@ -1,0 +1,13 @@
+<!-- Parent pom is mandatory to control versions of child dependencies -->
+<parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.1.6.RELEASE</version>
+    <relativePath />
+</parent>
+ 
+<!-- Spring web brings all required dependencies to build web application. -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
